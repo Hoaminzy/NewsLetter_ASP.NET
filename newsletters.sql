@@ -379,7 +379,7 @@ GO
  select * from TaiKhoan
  select * from CHUDE
 select * from TaiKhoan_ChuDe
-
+select * from Admin
 
 
 
