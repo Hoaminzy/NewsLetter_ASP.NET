@@ -1,0 +1,359 @@
+﻿body {
+    font: normal 12px arial, verdana;
+}
+
+a {
+    text-decoration: none;
+}
+/*Một số class phổ biến*/
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.cb {
+    clear: both;
+    padding-top:10px;
+}
+/*Phần header*/
+.header {
+    height: 120px;
+    overflow: hidden;
+    background-image: url('../../Images/banner.png');
+}
+
+    .header .logo {
+        float: left;
+        line-height: 80px;
+      
+    }
+
+   .header .thongtinkhac {
+        float: right;
+        line-height: 80px;
+    }
+   /*Css Account*/
+   .thongtinkhac ul,
+    .thongtinkhac li{
+         list-style: none;
+        margin: 0px;
+        padding: 0px;
+        margin-left:5px;
+        float:left;
+   }
+
+
+/*Phần menu*/
+
+#menu {
+    background-color: #0cbeea;
+} 
+   #menu ul,
+    #menu li {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+
+        #menu li a {
+            display: inline-block;
+            padding: 10px;
+            padding-left: 20px;
+            padding-left: 20px;
+            font-weight: bold;
+            font-family: 'Times New Roman';
+            font-size: 22px;
+            color: #fff;
+        }
+
+  #memu a:hover{
+      color:#dc731a;
+  }
+    #menu li a.current,
+    #menu li a:hover {
+        background: #3ad9b2;
+    }
+/*css cột trái cột phải của trang admin*/
+.cottrai {
+    float: left;
+    width: 240px;
+    box-sizing:border-box;
+    border:solid 1px #dfdfdf;
+    min-height:464px;
+}
+
+.cotphai {
+    float: right;
+    width:1080px;
+   /*width:calc(100%-280px);*/ 
+   box-sizing:border-box;
+      border:solid 1px #dfdfdf;
+          min-height:464px;
+  
+}
+ /*css cột trai cột phải bên trang quản lí sản phẩm*/
+ .cottrai .head{
+     background:#f9f9f9;
+     padding:10px;
+     font-weight: bold;
+     border-top: solid 1px #dfdfdf;
+     border-bottom: solid 1px #dfdfdf;
+
+ }
+ .cottrai .head:first-child{border-top:none}
+ .cottrai ul li{
+     padding: 5px 0;
+     list-style-type:none;
+
+ }
+  .cottrai ul li a.current,
+  .cottrai ul li a:hover{
+      color:#dc731a;
+  }
+  /*css cột phải trang quản lý*/
+  .cotphai .head{
+      background:#f9f9f9;
+     padding:10px;
+     font-weight: bold;
+     border-top: solid 1px #dfdfdf;
+     border-bottom: solid 1px #dfdfdf;
+  }
+   .cotphai .head:first-child{border-top:none
+   }
+
+/*Css cho khung them moi*/
+.FormThemMoi{
+    padding: 15px;
+}
+.thongTin{
+    overflow: hidden;
+}
+.tenTruong{
+    float: left;
+    width: 150px;
+}
+
+.oNhap{
+    float: left;
+    width: calc(100% - 150px);
+    margin-bottom:10px;
+}
+
+.FormThemMoi input[type = text]{
+    border: solid 1px #dfdfdf;
+    padding: 5px;
+    width: 50%;
+}
+
+ .FormThemMoi .btnHuy{
+    border: 0;
+    background: #0cbeea;
+    cursor: pointer;
+    padding: 8px 20px;
+    color: #fff0f5;
+    font-weight: bold;
+}
+ .FormThemMoi .btnThemMoi{
+        border: 0;
+    background:#dc731a;
+    cursor: pointer;
+    padding: 8px 20px;
+    color: #fff0f5;
+    font-weight: bold;
+ }
+.FormThemMoi .thongBaoTaoThanhCong {
+    color: red;
+    font-size: 16px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cotphai .contaner .head .btnThemMoi {
+    display: inline-block;
+    background: url() background: url('../../Images/icons8-add-10.png') no-repeat left;
+    padding-left:25px;padding-bottom:5px;padding-top:5px;
+}
+/*Css cho danh muc hien thi*/
+.khungChuaBang {
+    padding: 10px;
+}
+table.tbChuDe {
+    width: 100%;
+    border-collapse: collapse;
+    border: solid 1px #dfdfdf;
+}
+table.tbChuDe th, table.tbChuDe td{
+    border:solid 1px #dfdfdf; padding:5px;
+}
+table.tbChuDe .cotMa{
+    width: 40px; text-align:center;
+}
+table .tbChuDe .cotTen{
+    width:200px;
+    text-align: center;
+}
+table.tbChuDe .cotCongCu{
+    width:200px;
+    text-align:center;
+}
+table.tbChuDe .cotCongCu a{
+    display: inline-block;
+    width: 50px;
+    height:50px;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+    table.tbChuDe .cotCongCu a.sua {
+       
+        padding: 5px;
+        background-image: url('../../Images/icons8-erase-25.png');
+    }
+
+
+/*Css cho bang Letters*/
+.khungChuaBang {
+    padding:10px;
+}
+table.tbLetters{
+    width: 100%;
+    border-collapse: collapse;
+    border: solid 1px #dfdfdf;
+    padding:5px;
+}
+table.tbLetters th, table .tbLetters td{
+    border: solid 1px #dfdfdf;
+    padding: 5px;
+}
+table.tbLetters .cotMa{
+    width: 60px;
+    text-align: center;
+}
+table.tbLetters .cotSubject{
+    width: 500px;
+    text-align: left;
+}
+table.tbLetters .cotNgayTao{
+    text-align: center;
+}
+table.tbLetters .cotCongCu{
+    width: 250px;
+    text-align: center;
+}
+table.tbLetters .cotCongCu a{
+    display: inline-block;
+    width:50px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    table.tbLetters .cotCongCu a.sua {
+        background-image: url('../../Images/icons8-erase-25.png');
+        padding: 5px;
+    }
+a.gui {
+    background-image: url('../../Images/icons8-ok-25.png');
+    padding: 5px;
+}
+
+/*css cho hien thi tai khoan*/
+
+.khungChuaBang {
+    padding: 10px;
+}
+table.tbTaiKhoan{
+    width: 100%;
+    border-collapse: collapse;
+   
+ border: solid 1px #dfdfdf;
+}
+table.tbTaiKhoan th, table.tbTaiKhoan td{
+    border: solid 1px #dfdfdf;
+    padding:5px;
+}
+table.tbTaiKhoan .cotMa{
+             width:70px;
+             text-align:center;
+}
+table.tbTaiKhoan .cotTen{
+    width: 150px;
+    text-align: center;
+}
+table.tbTaiKhoan .cotEmail{
+    text-align:center;
+}
+
+table.tbTaiKhoan .cotCongCu{
+    width:150px;
+    text-align:center;
+}
+table.tbTaiKhoan .cotCongCu a{
+    display: inline-block;
+    width:50px;
+    height:50px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    table.tbTaiKhoan .cotCongCu a.sua {
+        background-image: url('../../Images/icons8-erase-25.png');
+        padding: 5px;
+    }
+  
+/*css form dang ki*/
+table.tbChuDeDangKy {
+    width: 100%;
+    border-collapse: collapse;
+    border: solid 1px #dfdfdf;
+}
+
+    table.tbChuDeDangKy th, table.tbChuDeDangKy td {
+        border: solid 1px #dfdfdf;
+        padding: 5px;
+    }
+
+    table.tbChuDeDangKy .cotMa {
+        width: 40px;
+        text-align: center;
+    }
+
+    table .tbChuDeDangKy .cotTen {
+        width: 200px;
+        text-align: center;
+    }
+    table.tbChuDeDangKy {
+    width: 100%;
+    border-collapse: collapse;
+    border: solid 1px #dfdfdf;
+}
+
+    table.tbChuDeDangKy th, table.tbChuDeDangKy td {
+        border: solid 1px #dfdfdf;
+        padding: 5px;
+    }
+
+    table.tbChuDeDangKy .cotMa {
+        width: 40px;
+        text-align: center;
+    }
+
+    table .tbChuDeDangKy .cotTen {
+        width: 200px;
+        text-align: center;
+    }
+
+#body {
+    height: 500px;
+}
+
+#footer {
+    height: auto;
+    margin: 0 auto;
+}

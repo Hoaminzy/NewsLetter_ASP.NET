@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Client.master.cs" Inherits="Website_GuiThuDienTu.Client" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Style/css/Client.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <%-- Các thành phần chung của trang web --%>
+        <div class="top">
+           
+                <img src="Images/banner.png" width="100%"/>
+           
+           
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="bottom">
+           
+                <img src="Images/footer.png" width="100%" />
+        </div>
+        <%-- Các thành phần chung của trang web --%>
+    </form>
+</body>
+</html>

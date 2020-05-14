@@ -1,0 +1,18 @@
+D:\Duong Thanh Binh\Bài Tập Lớn\Lập trình Web nâng cao\BTL_LTW\www\Website_GuiThuDienTu\Website_GuiThuDienTu\bin\Website_GuiThuDienTu.dll.config
+D:\Duong Thanh Binh\Bài Tập Lớn\Lập trình Web nâng cao\BTL_LTW\www\Website_GuiThuDienTu\Website_GuiThuDienTu\bin\Website_GuiThuDienTu.dll
+D:\Duong Thanh Binh\Bài Tập Lớn\Lập trình Web nâng cao\BTL_LTW\www\Website_GuiThuDienTu\Website_GuiThuDienTu\bin\Website_GuiThuDienTu.pdb
+D:\Duong Thanh Binh\Bài Tập Lớn\Lập trình Web nâng cao\BTL_LTW\www\Website_GuiThuDienTu\Website_GuiThuDienTu\obj\Debug\Website_GuiThuDienTu.csprojResolveAssemblyReference.cache
+D:\Duong Thanh Binh\Bài Tập Lớn\Lập trình Web nâng cao\BTL_LTW\www\Website_GuiThuDienTu\Website_GuiThuDienTu\obj\Debug\Website_GuiThuDienTu.dll
+D:\Duong Thanh Binh\Bài Tập Lớn\Lập trình Web nâng cao\BTL_LTW\www\Website_GuiThuDienTu\Website_GuiThuDienTu\obj\Debug\Website_GuiThuDienTu.pdb
+C:\Users\My Computer\Desktop\NEWSLETTERS\Website_GuiThuDienTu\Website_GuiThuDienTu\bin\Website_GuiThuDienTu.dll.config
+C:\Users\My Computer\Desktop\NEWSLETTERS\Website_GuiThuDienTu\Website_GuiThuDienTu\bin\Website_GuiThuDienTu.dll
+C:\Users\My Computer\Desktop\NEWSLETTERS\Website_GuiThuDienTu\Website_GuiThuDienTu\bin\Website_GuiThuDienTu.pdb
+C:\Users\My Computer\Desktop\NEWSLETTERS\Website_GuiThuDienTu\Website_GuiThuDienTu\obj\Debug\Website_GuiThuDienTu.csprojResolveAssemblyReference.cache
+C:\Users\My Computer\Desktop\NEWSLETTERS\Website_GuiThuDienTu\Website_GuiThuDienTu\obj\Debug\Website_GuiThuDienTu.dll
+C:\Users\My Computer\Desktop\NEWSLETTERS\Website_GuiThuDienTu\Website_GuiThuDienTu\obj\Debug\Website_GuiThuDienTu.pdb
+E:\BT\LTWebNC\Test\Website_GuiThuDienTu\Website_GuiThuDienTu\bin\Website_GuiThuDienTu.dll.config
+E:\BT\LTWebNC\Test\Website_GuiThuDienTu\Website_GuiThuDienTu\bin\Website_GuiThuDienTu.dll
+E:\BT\LTWebNC\Test\Website_GuiThuDienTu\Website_GuiThuDienTu\bin\Website_GuiThuDienTu.pdb
+E:\BT\LTWebNC\Test\Website_GuiThuDienTu\Website_GuiThuDienTu\obj\Debug\Website_GuiThuDienTu.dll
+E:\BT\LTWebNC\Test\Website_GuiThuDienTu\Website_GuiThuDienTu\obj\Debug\Website_GuiThuDienTu.pdb
+E:\BT\LTWebNC\Test\Website_GuiThuDienTu\Website_GuiThuDienTu\obj\Debug\Website_GuiThuDienTu.csprojResolveAssemblyReference.cache
